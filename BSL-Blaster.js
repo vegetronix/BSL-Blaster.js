@@ -523,7 +523,7 @@ async function main() {
         });
         console.log('Port opened');
         //for (let i = 0; i < 10; i++) {
-        invokeBsl(port);
+        await invokeBsl(port);
         await delay(5000);
         //}
 
